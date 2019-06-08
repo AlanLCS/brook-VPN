@@ -1,0 +1,17 @@
+安装步骤
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/brook.sh && chmod +x brook.sh && bash brook.sh
+运行脚本后会出现脚本操作菜单，选择并输入 1 就会开始安装。
+
+使用说明
+进入下载脚本的目录并运行脚本
+./brook.sh
+然后选择你要执行的选项即可。
+
+其他操作
+启动：/etc/init.d/brook start
+停止：/etc/init.d/brook stop
+重启：/etc/init.d/brook restart
+查看状态：/etc/init.d/brook status
+安装目录：/usr/local/brook
+配置文件：/usr/local/brook/brook.conf
+日志文件：/usr/local/brook/brook.log（注意正常情况下，日志是不会记录使用信息的，只会记录报错）
